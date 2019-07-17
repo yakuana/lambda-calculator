@@ -14,35 +14,41 @@ img {
 button {
     font-size: 2rem; 
     color: white; 
-    box-shadow: 1px 3px 1px #323335;
-    border: none;  
+
+    border: none; 
+    border-radius: 100%;
+    box-shadow: 1px 4px 1px #242526;
+
     width: 75px; 
     height: 75px;  
-    border-radius: 100%; 
 }
 
 .container {
-    border: 2px solid grey; 
-    border-radius: 2%; 
-    max-width: 450px; 
-    height: 670px; 
-    margin: auto; 
+    border: 3.5px solid rgb(101, 99, 99); 
+    color: white; 
     background-color: #9C2B39; 
+    border-radius: 3%; 
+
+    max-width: 450px; 
+    height: 670px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+
+    margin: auto; 
 }
 
 .console {
     // border: 1px solid yellow;
-    width: 85%; 
-    height: 60px; 
     background-color: #323335; 
-    border-radius: 50px; 
-    font-size: 3.5rem; 
-    color: white; 
+    width: 350px; 
+    height: 60px; 
     margin: 0 auto;  
     padding: 20px;
+    
+    border-radius: 50px; 
+    font-size: 3.5rem; 
+    
     text-align: end; 
 }
 
@@ -52,17 +58,14 @@ button {
     height: 435px; 
     display: flex; 
     flex-direction: row;
-    
-
 }
 
-.num-op-container {
+.special-num-container {
     // border: 5px solid orange; 
     display: flex; 
     flex-direction: column; 
     justify-content: space-between;
     margin-left: 30px; 
-    
 }
 
 .number-container {
@@ -76,9 +79,8 @@ button {
    
     .number-button {
         // border: 1px solid #294470;
-        border-radius: 100%; 
-        margin-right: 25px;  
         background-color: #294470;
+        margin-right: 25px;  
     }
 
 }
@@ -92,9 +94,8 @@ button {
     
 
     .special-button {
-        // border: 1px solid #294470;
-        border-radius: 100%; 
-        background-color: #2E5da0;
+        // border: 1px solid #294470
+        background-color: #2E5da0; 
         margin-right: 25px;  
     }
 }
@@ -108,9 +109,7 @@ button {
 
     .operator-button {
         // border: 1px solid #294470; 
-        border-radius: 100%; 
         background-color: #347490; 
-        
     }
 }
 

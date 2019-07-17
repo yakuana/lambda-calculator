@@ -20,16 +20,19 @@ function App() {
   return (
     <div className="container">
       <Logo />
-      
+
+      {/*Created a div to create a placeholder for the display screen on the calculator*/}
       <div className="console">0</div>
 
       <div className="App">
         {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
-
-        <div className="num-op-container">
+        
+        {/* Created a div to hold specials and numbers */}
+        <div className="special-num-container">
           <Specials />
           <Numbers />
         </div>
+
         <Operators />
       </div>
     </div>
